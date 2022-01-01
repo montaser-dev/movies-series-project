@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;/*google font*/
+  font-family: 'Poppins', sans-serif;
+}
+
+.continner-contact {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: bold;
+}
+
+.about {
+  width: 1000px;
+  margin-top: 5vh;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  margin-left: -200px;
+}
+
+.about img {
+  width: 350px;
+  height: auto;
+  margin-left: -300px;
+  border-radius: 20px;
+}
+
+.abdallah {
+  margin-top: 20px;
+}
+
+.all {
+  width: 80%;
+  margin-left: 18%;
+  margin-top: 7vh;
+  height: 95vh;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.each {
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  left: 650px;
+  height: 200px;
+  top: 15px;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.info a {
+  text-decoration: none;
+  color: rgb(255, 251, 251);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.info a:hover {
+  color: rgb(227, 238, 74);
+}
+.info i{
+	margin-right: 20px;
+	font-size: 22px; 
+}
+
+.info ul li {
+  list-style: none;
+  line-height: 50px;
+}
+
+.info2 {
+  top: 310px;
+}
+
+
+
